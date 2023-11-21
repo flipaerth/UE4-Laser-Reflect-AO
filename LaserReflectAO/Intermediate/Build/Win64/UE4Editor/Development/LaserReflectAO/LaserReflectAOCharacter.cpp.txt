@@ -6,6 +6,8 @@ D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Chara
 D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\Sensor.h
+C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Inc\LaserReflectAO\Sensor.generated.h
 C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Inc\LaserReflectAO\LaserReflectAOCharacter.generated.h
 C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOProjectile.h
 C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Inc\LaserReflectAO\LaserReflectAOProjectile.generated.h
@@ -46,3 +48,4 @@ D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Scene
 D:\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\LateUpdateManager.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\MotionControllerComponent.generated.h
 D:\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRMotionControllerBase.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

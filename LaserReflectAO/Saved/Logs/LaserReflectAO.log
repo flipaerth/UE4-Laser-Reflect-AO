@@ -895,3 +895,1132 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.21-09.52.03:529][127]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
 [2023.11.21-09.52.04:355][127]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0146 seconds. Added 3826 classes and 930 folders.
 [2023.11.21-09.52.04:385][127]Display: HotReload took 17.0s.
+[2023.11.21-10.04.07:596][331]LogSlate: Took 0.214450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.21-10.04.07:861][331]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.21-10.04.11:780][331]LogSlate: Took 0.068861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.11.21-10.06.10:756][684]Running D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" -game -rocket -progress
+[2023.11.21-10.06.11:218][684]Discovering modules, targets and source code for project...
+[2023.11.21-10.06.14:538][684]Binding IntelliSense data...
+[2023.11.21-10.06.41:747][684]Binding IntelliSense data... 50%
+[2023.11.21-10.06.41:748][684]Binding IntelliSense data... 100%
+[2023.11.21-10.06.41:748][684]Writing project files...
+[2023.11.21-10.06.59:456][684]Writing project files... 33%
+[2023.11.21-10.06.59:457][684]Writing project files... 100%
+[2023.11.21-10.06.59:744][684]Candidate modules for hot reload:
+[2023.11.21-10.06.59:744][684]  LaserReflectAO
+[2023.11.21-10.06.59:744][684]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,7190 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:07:19 PM
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Creating makefile for LaserReflectAOEditor (no existing makefile)
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Parsing headers for LaserReflectAOEditor
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\LaserReflectAO.uproject" "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\LaserReflectAOEditor\Development\LaserReflectAOEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\austi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Reflection code generated for LaserReflectAOEditor in 6.3609627 seconds
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.07.19:804][684]CompilerResultsLog: Building 15 actions with 8 processes...
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [1/15] Sensor.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [2/15] LaserReflectAO.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [3/15] LaserReflectAOProjectile.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [4/15] LaserReflectAO.init.gen.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [5/15] LaserReflectAOCharacter.gen.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [6/15] LaserReflectAOGameMode.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [7/15] LaserReflectAOHUD.cpp
+[2023.11.21-10.07.19:804][684]CompilerResultsLog:   [8/15] LaserReflectAOCharacter.cpp
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(33) : error C2065: 'threshold': undeclared identifier
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(93) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(95) : error C2653: 'Super': is not a class or namespace name
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(98) : error C3861: 'GetLocation': identifier not found
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(100) : error C3861: 'GetSensorLocation': identifier not found
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(109) : error C3861: 'GetForward': identifier not found
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineColor': undeclared identifier
+[2023.11.21-10.07.19:805][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(114) : error C2065: 'threshold': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(299) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(303) : error C2065: 'FirstPersonCameraComponent': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(306) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(310) : error C2065: 'FirstPersonCameraComponent': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(313) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(315) : error C2065: 'sensor': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(318) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(320) : error C2065: 'sensor': undeclared identifier
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:   [9/15] Sensor.gen.cpp
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:   [10/15] LaserReflectAOHUD.gen.cpp
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:   [11/15] LaserReflectAOGameMode.gen.cpp
+[2023.11.21-10.07.19:807][684]CompilerResultsLog:   [12/15] LaserReflectAOProjectile.gen.cpp
+[2023.11.21-10.07.19:807][684]LogMainFrame: MainFrame: Module compiling took 20.076 seconds
+[2023.11.21-10.07.19:899][684]Warning: HotReload failed, recompile failed
+[2023.11.21-10.07.19:899][684]Warning: RebindPackages failed because compilation failed.
+[2023.11.21-10.07.37:970][684]LogSlate: Window 'Message' being destroyed
+[2023.11.21-10.07.37:980][684]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'Sensor', however you must recompile the 'LaserReflectAO' module before it will appear in the Content Browser. Failed to automatically hot reload the 'LaserReflectAO' module.
+
+Would you like to open the Output Log to see more details?
+[2023.11.21-10.07.38:099][684]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.11.21-10.07.38:189][684]LogSlate: Took 0.034066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.11.21-10.07.50:517][399]LogSlate: Window 'Output Log' being destroyed
+[2023.11.21-10.07.50:525][399]LogSlate: Window 'Output Log' being destroyed
+[2023.11.21-10.07.51:543][458]Candidate modules for hot reload:
+[2023.11.21-10.07.51:543][458]  LaserReflectAO
+[2023.11.21-10.07.51:543][458]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,9463 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.07.51:549][458]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.07.54:991][645]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:07:54 PM
+[2023.11.21-10.07.54:991][645]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.07.54:991][645]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.07.54:991][645]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.07.54:991][645]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(33) : error C2065: 'threshold': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(93) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(95) : error C2653: 'Super': is not a class or namespace name
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(98) : error C3861: 'GetLocation': identifier not found
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(100) : error C3861: 'GetSensorLocation': identifier not found
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(109) : error C3861: 'GetForward': identifier not found
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineColor': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(114) : error C2065: 'threshold': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(299) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(303) : error C2065: 'FirstPersonCameraComponent': undeclared identifier
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(306) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.54:992][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(310) : error C2065: 'FirstPersonCameraComponent': undeclared identifier
+[2023.11.21-10.07.54:993][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(313) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.54:993][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(315) : error C2065: 'sensor': undeclared identifier
+[2023.11.21-10.07.54:993][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(318) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.07.54:993][645]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(320) : error C2065: 'sensor': undeclared identifier
+[2023.11.21-10.07.54:993][645]LogMainFrame: MainFrame: Module compiling took 3.459 seconds
+[2023.11.21-10.07.54:993][645]Warning: HotReload failed, recompile failed
+[2023.11.21-10.08.29:098][888]Candidate modules for hot reload:
+[2023.11.21-10.08.29:098][888]  LaserReflectAO
+[2023.11.21-10.08.29:099][888]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,0375 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.08.29:105][888]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.08.33:266][119]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:08:33 PM
+[2023.11.21-10.08.33:266][119]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.08.33:266][119]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.08.33:266][119]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.08.33:266][119]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.21-10.08.33:266][119]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.21-10.08.33:266][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(93) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(95) : error C2653: 'Super': is not a class or namespace name
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(98) : error C3861: 'GetLocation': identifier not found
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(100) : error C3861: 'GetSensorLocation': identifier not found
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(109) : error C3861: 'GetForward': identifier not found
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineColor': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(114) : error C2065: 'threshold': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(299) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(303) : error C2065: 'FirstPersonCameraComponent': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(306) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(310) : error C2065: 'FirstPersonCameraComponent': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(313) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(315) : error C2065: 'sensor': undeclared identifier
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(318) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.08.33:267][119]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(320) : error C2065: 'sensor': undeclared identifier
+[2023.11.21-10.08.33:267][119]LogMainFrame: MainFrame: Module compiling took 4.177 seconds
+[2023.11.21-10.08.33:267][119]Warning: HotReload failed, recompile failed
+[2023.11.21-10.09.25:854][661]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.09.25:861][661]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.09.26:711][707]Candidate modules for hot reload:
+[2023.11.21-10.09.26:711][707]  LaserReflectAO
+[2023.11.21-10.09.26:711][707]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,3799 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.09.26:717][707]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:09:32 PM
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-3799.lib
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3799.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3799.exp
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-3799.dll
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3799.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3799.suppressed.exp
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Error:   LaserReflectAOCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALaserReflectAOCharacter::Tick(float)" (?Tick@ALaserReflectAOCharacter@@UEAAXM@Z)
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Error:   LaserReflectAOCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALaserReflectAOCharacter::Tick(float)" (?Tick@ALaserReflectAOCharacter@@UEAAXM@Z)
+[2023.11.21-10.09.32:515][ 36]CompilerResultsLog: Error:   C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Binaries\Win64\UE4Editor-LaserReflectAO-3799.dll : fatal error LNK1120: 1 unresolved externals
+[2023.11.21-10.09.32:515][ 36]LogMainFrame: MainFrame: Module compiling took 5.815 seconds
+[2023.11.21-10.09.32:515][ 36]Warning: HotReload failed, recompile failed
+[2023.11.21-10.09.52:100][203]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.09.52:109][203]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.10.31:174][481]Candidate modules for hot reload:
+[2023.11.21-10.10.31:174][481]  LaserReflectAO
+[2023.11.21-10.10.31:174][481]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,9623 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.10.31:182][481]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:10:45 PM
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: Parsing headers for LaserReflectAOEditor
+[2023.11.21-10.10.45:852][338]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\LaserReflectAO.uproject" "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\LaserReflectAOEditor\Development\LaserReflectAOEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\austi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: Reflection code generated for LaserReflectAOEditor in 7.2920683 seconds
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.10.45:852][338]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.10.45:853][338]CompilerResultsLog: Building 7 actions with 8 processes...
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:   [1/7] LaserReflectAO.init.gen.cpp
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:   [2/7] LaserReflectAOCharacter.gen.cpp
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:   [3/7] LaserReflectAOGameMode.cpp
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:   [4/7] LaserReflectAOCharacter.cpp
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:   [5/7] UE4Editor-LaserReflectAO-9623.lib
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9623.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9623.exp
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:   [6/7] UE4Editor-LaserReflectAO-9623.dll
+[2023.11.21-10.10.45:853][338]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9623.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9623.suppressed.exp
+[2023.11.21-10.10.45:853][338]CompilerResultsLog: Error:   LaserReflectAOCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALaserReflectAOCharacter::Tick(float)" (?Tick@ALaserReflectAOCharacter@@UEAAXM@Z)
+[2023.11.21-10.10.45:853][338]CompilerResultsLog: Error:   LaserReflectAOCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALaserReflectAOCharacter::Tick(float)" (?Tick@ALaserReflectAOCharacter@@UEAAXM@Z)
+[2023.11.21-10.10.45:853][338]CompilerResultsLog: Error:   C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Binaries\Win64\UE4Editor-LaserReflectAO-9623.dll : fatal error LNK1120: 1 unresolved externals
+[2023.11.21-10.10.45:853][338]LogMainFrame: MainFrame: Module compiling took 14.688 seconds
+[2023.11.21-10.10.45:853][338]Warning: HotReload failed, recompile failed
+[2023.11.21-10.14.46:296][387]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.14.46:309][387]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.14.47:055][430]Candidate modules for hot reload:
+[2023.11.21-10.14.47:055][430]  LaserReflectAO
+[2023.11.21-10.14.47:055][430]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,5225 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.14.47:062][430]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.14.56:335][816]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:14:56 PM
+[2023.11.21-10.14.56:335][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.14.56:335][816]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.21-10.14.56:335][816]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.14.56:335][816]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.14.56:335][816]CompilerResultsLog: Building 7 actions with 8 processes...
+[2023.11.21-10.14.56:335][816]CompilerResultsLog:   [1/7] LaserReflectAO.init.gen.cpp
+[2023.11.21-10.14.56:335][816]CompilerResultsLog:   [2/7] LaserReflectAOGameMode.cpp
+[2023.11.21-10.14.56:335][816]CompilerResultsLog:   [3/7] LaserReflectAOCharacter.gen.cpp
+[2023.11.21-10.14.56:335][816]CompilerResultsLog:   [4/7] LaserReflectAOCharacter.cpp
+[2023.11.21-10.14.56:335][816]CompilerResultsLog:   [5/7] UE4Editor-LaserReflectAO-5225.lib
+[2023.11.21-10.14.56:335][816]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5225.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5225.exp
+[2023.11.21-10.14.56:336][816]CompilerResultsLog:   [6/7] UE4Editor-LaserReflectAO-5225.dll
+[2023.11.21-10.14.56:336][816]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5225.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5225.suppressed.exp
+[2023.11.21-10.14.56:336][816]CompilerResultsLog:   [7/7] LaserReflectAOEditor.target
+[2023.11.21-10.14.56:336][816]CompilerResultsLog: Total time in Parallel executor: 5.05 seconds
+[2023.11.21-10.14.56:336][816]CompilerResultsLog: Total execution time: 8.91 seconds
+[2023.11.21-10.14.56:336][816]LogMainFrame: MainFrame: Module compiling took 9.292 seconds
+[2023.11.21-10.14.56:389][816]LogClass: Could not find existing class Sensor in package /Script/LaserReflectAO for HotReload, assuming new class
+[2023.11.21-10.14.56:405][816]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2023.11.21-10.14.56:412][816]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.21-10.14.56:511][816]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0175 seconds. Added 3827 classes and 930 folders.
+[2023.11.21-10.14.56:511][816]Display: HotReload took  9.5s.
+[2023.11.21-10.15.13:089][ 77]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Source/LaserReflectAO/Sensor.cpp'
+[2023.11.21-10.24.01:646][271]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.21-10.24.01:649][271]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2023.11.21-10.24.06:987][271]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.11.21-10.24.07:030][271]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.11.21-10.24.07:041][271]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.11.21-10.24.22:781][587]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2023.11.21-10.24.22:883][587]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.11.21-10.24.28:680][904]LogContentBrowser: Attempting asset rename: NewBlueprint -> Sensor
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.Sensor:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.SKEL_Sensor_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.SKEL_Sensor_C' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.Sensor_C' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.Sensor:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.Sensor:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.28:802][904]LogMetaData: Removing '/Game/FirstPersonCPP/Blueprints/Sensor.Sensor:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonCPP/Blueprints/NewBlueprint.PackageMetaData'
+[2023.11.21-10.24.29:170][904]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/Sensor89F484CF45D20C38BFD418ACA10B225E.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Content/FirstPersonCPP/Blueprints/Sensor.uasset'
+[2023.11.21-10.24.29:407][904]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2023.11.21-10.24.29:482][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.21-10.24.29:488][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.11.21-10.24.29:641][904]AssetCheck: New page: Asset Save: Sensor
+[2023.11.21-10.24.29:641][904]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/Sensor.Sensor
+[2023.11.21-10.24.31:342][  1]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/Sensor.Sensor
+[2023.11.21-10.24.34:274][  1]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 126 classes and 0 folders.
+[2023.11.21-10.24.37:220][  2]LogRenderer: Reallocating scene render targets to support 1184x664 Format 9 NumSamples 1 (Frame:1).
+[2023.11.21-10.24.38:784][ 66]LogSlate: Took 0.024543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.11.21-10.25.10:692][762]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:692][762]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:692][762]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:693][762]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:693][762]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:693][762]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:708][763]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:708][763]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:708][763]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:710][763]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:710][763]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:710][763]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:710][763]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:710][763]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:710][763]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:725][764]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:726][764]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:743][765]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:745][765]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:745][765]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:745][765]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:745][765]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:745][765]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:745][765]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:746][765]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:746][765]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:760][766]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:760][766]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:760][766]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:761][766]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:761][766]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:761][766]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:761][766]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:761][766]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:761][766]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:777][767]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:777][767]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:777][767]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:777][767]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:778][767]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:778][767]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:778][767]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:778][767]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:778][767]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:794][768]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:794][768]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:794][768]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:794][768]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:794][768]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:794][768]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:795][768]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:795][768]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:795][768]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:810][769]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:810][769]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:810][769]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:811][769]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:811][769]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:811][769]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:811][769]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:811][769]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:811][769]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:827][770]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:844][771]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:844][771]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:844][771]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:844][771]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:844][771]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:844][771]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:845][771]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:845][771]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:845][771]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:860][772]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:860][772]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:860][772]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:860][772]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:861][772]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:861][772]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:861][772]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:861][772]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:861][772]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:876][773]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:876][773]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:876][773]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:877][773]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:877][773]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:877][773]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:877][773]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:877][773]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:877][773]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:893][774]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:893][774]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:893][774]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:894][774]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:894][774]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:894][774]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:894][774]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:894][774]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:894][774]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:910][775]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:910][775]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:910][775]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:910][775]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:910][775]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:910][775]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:911][775]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:911][775]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:911][775]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:927][776]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:943][777]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:943][777]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:943][777]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:943][777]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:944][777]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:944][777]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:944][777]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:944][777]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:944][777]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:960][778]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:977][779]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:995][780]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:995][780]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:995][780]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:995][780]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:995][780]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:995][780]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.10:996][780]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.10:996][780]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.10:996][780]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:011][781]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:028][782]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:028][782]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:028][782]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:028][782]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:028][782]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:029][782]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:029][782]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:029][782]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:029][782]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:044][783]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:045][783]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:045][783]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:045][783]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:045][783]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:045][783]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:046][783]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:046][783]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:046][783]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:061][784]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:061][784]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:061][784]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:062][784]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:062][784]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:062][784]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:062][784]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:062][784]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:062][784]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:079][785]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:079][785]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:079][785]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:080][785]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:080][785]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:080][785]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:080][785]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:080][785]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:080][785]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:096][786]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:096][786]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:096][786]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:096][786]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:097][786]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:097][786]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:097][786]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:097][786]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:097][786]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:113][787]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:114][787]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:131][788]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:132][788]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:148][789]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:164][790]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:164][790]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:164][790]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:165][790]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:165][790]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:165][790]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:165][790]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:165][790]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:165][790]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:182][791]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:199][792]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:216][793]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:216][793]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:216][793]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:216][793]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:217][793]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:217][793]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:217][793]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:217][793]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:217][793]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:233][794]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:248][795]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:248][795]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:248][795]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:248][795]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:250][795]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:250][795]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:250][795]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:250][795]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:250][795]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:266][796]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:282][797]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:283][797]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:299][798]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:300][798]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:300][798]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:316][799]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:332][800]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:332][800]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:332][800]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:333][800]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:333][800]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:333][800]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:333][800]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:333][800]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:333][800]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:348][801]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:365][802]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:382][803]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:382][803]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:382][803]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:383][803]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:383][803]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:383][803]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:383][803]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:383][803]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:383][803]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:399][804]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:399][804]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:399][804]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:399][804]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:399][804]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:399][804]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:400][804]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:400][804]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:400][804]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:415][805]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:415][805]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:415][805]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:416][805]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:416][805]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:416][805]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:416][805]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:416][805]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:416][805]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:432][806]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:449][807]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:449][807]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:449][807]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:450][807]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:450][807]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:450][807]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:450][807]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:450][807]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:450][807]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:465][808]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:465][808]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:465][808]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:466][808]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:466][808]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:466][808]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:466][808]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:466][808]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:466][808]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:482][809]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:483][809]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:483][809]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:483][809]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:483][809]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:483][809]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:484][809]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:484][809]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:484][809]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:500][810]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:516][811]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:516][811]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:516][811]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.11:516][811]LogPhysics: Warning: Scale for /Engine/Transient.World_2:PersistentLevel.Sensor_C_0.Cylinder has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2023.11.21-10.25.11:516][811]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2023.11.21-10.25.11:516][811]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2023.11.21-10.25.20:324][251]BlueprintLog: New page: Compile Sensor
+[2023.11.21-10.25.20:499][251]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2023.11.21-10.25.22:011][317]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/Sensor74CC7197465443764EECDBA363B24E43.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Content/FirstPersonCPP/Blueprints/Sensor.uasset'
+[2023.11.21-10.25.22:030][317]AssetCheck: New page: Asset Save: Sensor
+[2023.11.21-10.25.22:030][317]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/Sensor.Sensor
+[2023.11.21-10.25.23:902][421]LogSlate: Window 'Sensor' being destroyed
+[2023.11.21-10.25.23:908][421]LogSlate: Window 'Sensor' being destroyed
+[2023.11.21-10.25.23:919][421]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.25.23:919][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.25.56:521][202]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2023.11.21-10.25.56:607][202]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/FirstPersonExampleMap_Auto18977F0B94471393F99344DABC7AF522B.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2023.11.21-10.25.56:611][202]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.149
+[2023.11.21-10.25.56:611][202]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.149
+[2023.11.21-10.26.09:972][324]Candidate modules for hot reload:
+[2023.11.21-10.26.09:972][324]  LaserReflectAO
+[2023.11.21-10.26.09:972][324]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,6548 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.26.09:979][324]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.26.20:732][872]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:26:20 PM
+[2023.11.21-10.26.20:733][872]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.26.20:733][872]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.21-10.26.20:733][872]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.26.20:733][872]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.26.20:734][872]CompilerResultsLog: Building 8 actions with 8 processes...
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:   [1/8] Sensor.cpp
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:   [2/8] LaserReflectAO.init.gen.cpp
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:   [3/8] LaserReflectAOCharacter.gen.cpp
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:   [4/8] LaserReflectAOGameMode.cpp
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:   [5/8] LaserReflectAOCharacter.cpp
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(93) : error C2653: 'ALookAtSensorCPPCharacter': is not a class or namespace name
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(95) : error C2653: 'Super': is not a class or namespace name
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(98) : error C3861: 'GetLocation': identifier not found
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(100) : error C3861: 'GetSensorLocation': identifier not found
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(109) : error C3861: 'GetForward': identifier not found
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(110) : error C2065: 'lineColor': undeclared identifier
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(114) : error C2065: 'threshold': undeclared identifier
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(118) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C3861: 'GetWorld': identifier not found
+[2023.11.21-10.26.20:734][872]CompilerResultsLog:    C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp(122) : error C2065: 'lineDistance': undeclared identifier
+[2023.11.21-10.26.20:734][872]LogMainFrame: MainFrame: Module compiling took 10.771 seconds
+[2023.11.21-10.26.20:734][872]Warning: HotReload failed, recompile failed
+[2023.11.21-10.26.33:480][587]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.26.33:484][587]LogSlate: Window 'Message Log' being destroyed
+[2023.11.21-10.29.11:912][900]Candidate modules for hot reload:
+[2023.11.21-10.29.11:912][900]  LaserReflectAO
+[2023.11.21-10.29.11:912][900]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,4795 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.21-10.29.11:920][900]Warning: Starting HotReload took  0.0s.
+[2023.11.21-10.29.19:186][150]CompilerResultsLog: New page: Compilation - Nov 20, 2023, 10:29:19 PM
+[2023.11.21-10.29.19:186][150]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.21-10.29.19:186][150]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.21-10.29.19:186][150]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.21-10.29.19:186][150]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.21-10.29.19:186][150]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.21-10.29.19:186][150]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-4795.lib
+[2023.11.21-10.29.19:186][150]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4795.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4795.exp
+[2023.11.21-10.29.19:186][150]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-4795.dll
+[2023.11.21-10.29.19:186][150]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4795.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4795.suppressed.exp
+[2023.11.21-10.29.19:187][150]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.21-10.29.19:187][150]CompilerResultsLog: Total time in Parallel executor: 5.31 seconds
+[2023.11.21-10.29.19:187][150]CompilerResultsLog: Total execution time: 6.85 seconds
+[2023.11.21-10.29.19:187][150]LogMainFrame: MainFrame: Module compiling took 7.283 seconds
+[2023.11.21-10.29.19:228][150]LogClass: Could not find existing class LaserReflectAOCharacter in package /Script/LaserReflectAO for HotReload, assuming new class
+[2023.11.21-10.29.19:250][150]LogHotReload: Re-instancing LaserReflectAOCharacter after hot-reload.
+[2023.11.21-10.29.19:700][150]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2023.11.21-10.29.19:707][150]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.21-10.29.19:825][150]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0149 seconds. Added 3827 classes and 930 folders.
+[2023.11.21-10.29.19:854][150]Display: HotReload took  8.0s.
+[2023.11.21-10.29.45:844][220]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.21-10.29.55:241][748]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2023.11.21-10.29.55:324][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2023.11.21-10.29.55:350][748]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/FirstPersonExampleMap3E5683EB4BCF1722C9EB12965B252004.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2023.11.21-10.29.55:367][748]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.099
+[2023.11.21-10.29.55:387][748]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2023.11.21-10.29.55:387][748]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2023.11.21-10.29.58:755][941]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.29.58:799][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.29.58:801][941]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:29:58 PM)
+[2023.11.21-10.29.58:844][941]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.11.21-10.29.58:865][941]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.11.21-10.29.58:866][941]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.29.58:925][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059662s)
+[2023.11.21-10.29.58:940][941]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.29.58:941][941]LogPlayLevel: PIE: World Init took: (0.015483s)
+[2023.11.21-10.29.58:941][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.075840s)
+[2023.11.21-10.29.58:962][941]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.11.21-10.29.58:964][941]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.29.58:964][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.29.58:964][941]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.29.58:965][941]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.29.58:965][941]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.29.58:965][941]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.29.58:965][941]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.29.59:010][941]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.29.59:010][941]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.29.59:031][941]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.29.59:031][941]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.29.59:031][941]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.29.59:031][941]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.29.59:032][941]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.29.59:032][941]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.29.59:032][941]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.29.59:035][941]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.29.59:035][941]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.29.59:035][941]LogInit: FAudioDevice initialized.
+[2023.11.21-10.29.59:035][941]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.29.59:113][941]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.29.59:288][941]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.29.59
+[2023.11.21-10.29.59:306][941]LogWorld: Bringing up level for play took: 0.049473
+[2023.11.21-10.29.59:307][941]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.11.21-10.29.59:604][941]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2023.11.21-10.29.59:661][941]PIE: Server logged in
+[2023.11.21-10.29.59:664][941]PIE: Play in editor total start time 0.892 seconds.
+[2023.11.21-10.30.19:854][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.30.19:854][ 93]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.30.19:855][ 93]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.30.19:855][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.30.19:870][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.30.19:983][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.30.20:009][ 93]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-10.30.20:010][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.30.20:011][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.30.20:014][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.30.20:065][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.11.21-10.30.20:151][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.11.21-10.30.31:260][733]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.30.31:267][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.30.31:267][733]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:30:31 PM)
+[2023.11.21-10.30.31:267][733]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.30.31:278][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010794s)
+[2023.11.21-10.30.31:279][733]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.30.31:398][733]LogPlayLevel: PIE: World Init took: (0.119986s)
+[2023.11.21-10.30.31:398][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.131056s)
+[2023.11.21-10.30.31:447][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.11.21-10.30.31:450][733]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.30.31:450][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.30.31:450][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.30.31:451][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.30.31:451][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.30.31:451][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.30.31:451][733]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.30.31:454][733]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.30.31:454][733]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.30.31:471][733]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.30.31:471][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.30.31:471][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.30.31:471][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.30.31:472][733]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.30.31:472][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.30.31:472][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.30.31:473][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.30.31:473][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.30.31:473][733]LogInit: FAudioDevice initialized.
+[2023.11.21-10.30.31:473][733]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.30.31:483][733]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.30.31:485][733]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.30.31
+[2023.11.21-10.30.31:486][733]LogWorld: Bringing up level for play took: 0.002558
+[2023.11.21-10.30.31:486][733]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2023.11.21-10.30.31:489][733]PIE: Server logged in
+[2023.11.21-10.30.31:490][733]PIE: Play in editor total start time 0.224 seconds.
+[2023.11.21-10.30.41:312][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.30.41:312][316]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.30.41:312][316]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.30.41:313][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.30.41:326][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.30.41:437][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.30.41:455][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.30.41:455][316]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.30.41:457][316]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.30.41:462][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.11.21-10.30.41:868][317]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.11.21-10.30.48:710][704]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.30.48:716][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.30.48:716][704]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:30:48 PM)
+[2023.11.21-10.30.48:716][704]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.30.48:726][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010626s)
+[2023.11.21-10.30.48:728][704]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.30.48:728][704]LogPlayLevel: PIE: World Init took: (0.001358s)
+[2023.11.21-10.30.48:728][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012200s)
+[2023.11.21-10.30.48:748][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.21-10.30.48:749][704]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.30.48:750][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.30.48:750][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.30.48:750][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.30.48:750][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.30.48:750][704]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.30.48:753][704]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.30.48:753][704]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.30.48:770][704]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.30.48:770][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.30.48:770][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.30.48:771][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.30.48:771][704]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.30.48:771][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.30.48:771][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.30.48:773][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.30.48:773][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.30.48:773][704]LogInit: FAudioDevice initialized.
+[2023.11.21-10.30.48:773][704]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.30.48:784][704]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.30.48:787][704]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.30.48
+[2023.11.21-10.30.48:787][704]LogWorld: Bringing up level for play took: 0.002316
+[2023.11.21-10.30.48:787][704]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.11.21-10.30.48:791][704]PIE: Server logged in
+[2023.11.21-10.30.48:792][704]PIE: Play in editor total start time 0.077 seconds.
+[2023.11.21-10.30.54:922][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.30.54:923][ 68]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.30.54:923][ 68]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.30.54:923][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.30.54:937][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.30.55:041][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.30.55:060][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.30.55:060][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.30.55:062][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.30.55:069][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.11.21-10.30.55:143][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.11.21-10.31.01:310][423]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.31.01:316][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.31.01:316][423]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:31:01 PM)
+[2023.11.21-10.31.01:316][423]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.31.01:326][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010572s)
+[2023.11.21-10.31.01:327][423]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.31.01:328][423]LogPlayLevel: PIE: World Init took: (0.001532s)
+[2023.11.21-10.31.01:328][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012316s)
+[2023.11.21-10.31.01:348][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.11.21-10.31.01:350][423]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.31.01:350][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.31.01:350][423]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.31.01:350][423]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.31.01:350][423]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.31.01:350][423]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.31.01:354][423]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.31.01:354][423]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.31.01:369][423]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.31.01:370][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.31.01:370][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.31.01:370][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.31.01:370][423]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.31.01:371][423]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.31.01:371][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.31.01:372][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.31.01:372][423]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.31.01:372][423]LogInit: FAudioDevice initialized.
+[2023.11.21-10.31.01:372][423]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.31.01:386][423]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.31.01:389][423]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.31.01
+[2023.11.21-10.31.01:389][423]LogWorld: Bringing up level for play took: 0.002448
+[2023.11.21-10.31.01:389][423]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.11.21-10.31.01:393][423]PIE: Server logged in
+[2023.11.21-10.31.01:394][423]PIE: Play in editor total start time 0.079 seconds.
+[2023.11.21-10.31.09:553][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.31.09:553][908]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.31.09:553][908]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.31.09:553][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.31.09:568][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.31.09:671][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.31.09:689][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.31.09:689][908]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.31.09:691][908]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.31.09:697][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.11.21-10.31.09:758][909]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.11.21-10.31.18:860][436]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.31.18:865][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.31.18:866][436]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:31:18 PM)
+[2023.11.21-10.31.18:866][436]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.31.18:877][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010610s)
+[2023.11.21-10.31.18:878][436]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.31.18:878][436]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2023.11.21-10.31.18:878][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012238s)
+[2023.11.21-10.31.18:898][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.21-10.31.18:900][436]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.31.18:900][436]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.31.18:900][436]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.31.18:900][436]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.31.18:900][436]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.31.18:901][436]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.31.18:901][436]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.31.18:904][436]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.31.18:904][436]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.31.18:920][436]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.31.18:920][436]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.31.18:920][436]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.31.18:920][436]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.31.18:921][436]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.31.18:921][436]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.31.18:921][436]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.31.18:923][436]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.31.18:923][436]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.31.18:923][436]LogInit: FAudioDevice initialized.
+[2023.11.21-10.31.18:923][436]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.31.18:933][436]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.31.18:936][436]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.31.18
+[2023.11.21-10.31.18:936][436]LogWorld: Bringing up level for play took: 0.002033
+[2023.11.21-10.31.18:936][436]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.11.21-10.31.18:938][436]PIE: Server logged in
+[2023.11.21-10.31.18:939][436]PIE: Play in editor total start time 0.075 seconds.
+[2023.11.21-10.31.41:772][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.31.41:772][704]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.31.41:772][704]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.31.41:772][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.31.41:782][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.31.41:886][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.31.41:904][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.31.41:904][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.31.41:906][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.31.41:912][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.11.21-10.31.41:981][705]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.11.21-10.31.52:076][304]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.31.52:081][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.31.52:082][304]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:31:52 PM)
+[2023.11.21-10.31.52:082][304]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.31.52:093][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011032s)
+[2023.11.21-10.31.52:094][304]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.31.52:095][304]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2023.11.21-10.31.52:095][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012773s)
+[2023.11.21-10.31.52:114][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.11.21-10.31.52:117][304]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.31.52:117][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.31.52:117][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.31.52:118][304]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.31.52:118][304]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.31.52:118][304]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.31.52:118][304]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.31.52:121][304]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.31.52:121][304]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.31.52:138][304]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.31.52:138][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.31.52:138][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.31.52:138][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.31.52:138][304]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.31.52:138][304]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.31.52:138][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.31.52:146][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.31.52:146][304]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.31.52:146][304]LogInit: FAudioDevice initialized.
+[2023.11.21-10.31.52:146][304]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.31.52:156][304]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.31.52:158][304]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.31.52
+[2023.11.21-10.31.52:159][304]LogWorld: Bringing up level for play took: 0.002281
+[2023.11.21-10.31.52:159][304]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2023.11.21-10.31.52:161][304]PIE: Server logged in
+[2023.11.21-10.31.52:162][304]PIE: Play in editor total start time 0.082 seconds.
+[2023.11.21-10.32.09:511][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.32.09:511][340]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.32.09:511][340]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.32.09:512][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.32.09:527][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.32.09:632][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.32.09:648][340]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-10.32.09:648][340]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.32.09:650][340]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.32.09:653][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.32.09:657][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.11.21-10.32.09:724][341]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.11.21-10.32.27:705][357]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.21-10.32.27:711][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-10.32.27:711][357]PIE: New page: PIE session: FirstPersonExampleMap (Nov 20, 2023, 10:32:27 PM)
+[2023.11.21-10.32.27:711][357]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.32.27:724][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012016s)
+[2023.11.21-10.32.27:725][357]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.21-10.32.27:725][357]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2023.11.21-10.32.27:725][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013480s)
+[2023.11.21-10.32.27:744][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.11.21-10.32.27:748][357]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.21-10.32.27:748][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.21-10.32.27:748][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-10.32.27:749][357]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.21-10.32.27:749][357]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.21-10.32.27:749][357]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-10.32.27:749][357]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.21-10.32.27:753][357]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.21-10.32.27:753][357]LogAudioMixer: Display: 1: FrontRight
+[2023.11.21-10.32.27:769][357]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.21-10.32.27:770][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-10.32.27:770][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-10.32.27:770][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-10.32.27:770][357]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.21-10.32.27:770][357]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.21-10.32.27:770][357]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.21-10.32.27:771][357]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.21-10.32.27:771][357]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.21-10.32.27:771][357]LogInit: FAudioDevice initialized.
+[2023.11.21-10.32.27:771][357]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonExampleMap'.
+[2023.11.21-10.32.27:784][357]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.21-10.32.27:786][357]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-04.32.27
+[2023.11.21-10.32.27:787][357]LogWorld: Bringing up level for play took: 0.002711
+[2023.11.21-10.32.27:787][357]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2023.11.21-10.32.27:790][357]PIE: Server logged in
+[2023.11.21-10.32.27:790][357]PIE: Play in editor total start time 0.08 seconds.
+[2023.11.21-10.33.07:282][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.33.07:282][587]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.21-10.33.07:282][587]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-10.33.07:283][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.33.07:295][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-10.33.07:401][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-10.33.07:418][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-10.33.07:418][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.33.07:420][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.21-10.33.07:426][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.11.21-10.33.07:488][588]LogPlayLevel: Display: Destroying online subsystem :Context_14

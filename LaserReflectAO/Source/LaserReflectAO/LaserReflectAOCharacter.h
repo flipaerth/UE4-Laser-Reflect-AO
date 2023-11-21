@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Sensor.h"
 #include "LaserReflectAOCharacter.generated.h"
 
 class UInputComponent;
@@ -51,13 +52,29 @@ class ALaserReflectAOCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	UMotionControllerComponent* L_MotionController;
 
+	UPROPERTY(EditAnywhere)
+	ASensor* sensor;
+
 public:
 	ALaserReflectAOCharacter();
+
+	void Tick(float DeltaTime);
 
 protected:
 	virtual void BeginPlay();
 
 public:
+
+	// 1 is looking directly at the sensor, 0 is looking away from the sensor
+	UPROPERTY(EditAnywhere, meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+	float threshold = 0.5f;
+
+	UPROPERTY(EditAnywhere)
+	float lineDistance = 100.0f;
+
+	UPROPERTY(EditAnywhere)
+	FColor lineColor;
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -87,6 +104,16 @@ public:
 	uint8 bUsingMotionControllers : 1;
 
 protected:
+
+	FVector GetLocation();
+
+	FVector GetForward();
+
+	FVector GetSensorLocation();
+
+	FVector GetSensorForward();
+
+	void SensorCheck();
 	
 	/** Fires a projectile. */
 	void OnFire();

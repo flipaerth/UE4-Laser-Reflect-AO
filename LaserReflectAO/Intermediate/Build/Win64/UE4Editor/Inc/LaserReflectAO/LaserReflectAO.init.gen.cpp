@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAO_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF9536FFB,
-				0x497E9ACA,
+				0x7C4A9FCB,
+				0xC4BAB3F1,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

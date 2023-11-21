@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
+	LASERREFLECTAO_API UClass* Z_Construct_UClass_ASensor_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	LASERREFLECTAO_API UClass* Z_Construct_UClass_ALaserReflectAOProjectile_NoRegister();
@@ -72,6 +74,22 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sensor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_sensor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_threshold_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_threshold;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lineDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_lineDistance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lineColor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_lineColor;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
@@ -200,6 +218,40 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_L_MotionController = { "L_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, L_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_L_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_L_MotionController_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_sensor_MetaData[] = {
+		{ "Category", "LaserReflectAOCharacter" },
+		{ "ModuleRelativePath", "LaserReflectAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_sensor = { "sensor", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, sensor), Z_Construct_UClass_ASensor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_sensor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_sensor_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_threshold_MetaData[] = {
+		{ "Category", "LaserReflectAOCharacter" },
+		{ "ClampMax", "1.0" },
+		{ "ClampMin", "0.0" },
+		{ "Comment", "// 1 is looking directly at the sensor, 0 is looking away from the sensor\n" },
+		{ "ModuleRelativePath", "LaserReflectAOCharacter.h" },
+		{ "ToolTip", "1 is looking directly at the sensor, 0 is looking away from the sensor" },
+		{ "UIMax", "1.0" },
+		{ "UIMin", "0.0" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_threshold = { "threshold", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, threshold), METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_threshold_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_threshold_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance_MetaData[] = {
+		{ "Category", "LaserReflectAOCharacter" },
+		{ "ModuleRelativePath", "LaserReflectAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance = { "lineDistance", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, lineDistance), METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColor_MetaData[] = {
+		{ "Category", "LaserReflectAOCharacter" },
+		{ "ModuleRelativePath", "LaserReflectAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColor = { "lineColor", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, lineColor), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColor_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -275,6 +327,10 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_FirstPersonCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_L_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_sensor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_threshold,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_GunOffset,
@@ -310,7 +366,7 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALaserReflectAOCharacter, 4206491194);
+	IMPLEMENT_CLASS(ALaserReflectAOCharacter, 789318739);
 	template<> LASERREFLECTAO_API UClass* StaticClass<ALaserReflectAOCharacter>()
 	{
 		return ALaserReflectAOCharacter::StaticClass();

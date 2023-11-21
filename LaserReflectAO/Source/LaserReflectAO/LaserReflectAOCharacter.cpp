@@ -11,6 +11,9 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "DrawDebugHelpers.h"
+#include "Sensor.h"
+#include "Math/Vector.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -25,6 +28,9 @@ ALaserReflectAOCharacter::ALaserReflectAOCharacter()
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
+
+	// Initialize threshold to your desired value
+	threshold = 0.5f;
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
@@ -82,6 +88,42 @@ ALaserReflectAOCharacter::ALaserReflectAOCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+}
+
+void ALaserReflectAOCharacter::Tick(float DeltaTime) {
+
+	Super::Tick(DeltaTime);
+
+	// Get the player location
+	FVector start = GetLocation();
+	// Get the sensor's location
+	FVector end = GetSensorLocation();
+
+	// Calculate the direction vector from player to sensor
+	FVector PlayerToSensorDir = (end - start).GetSafeNormal();
+
+	// Draw Debug Line from the player to the sensor
+	//DrawDebugLine(GetWorld(), start, start + PlayerToSensorDir * lineDistance, FColor::Cyan, false, 0.1f);
+
+	// Draw Debug Line from player to the player's forward vector
+	FVector playerForward = GetForward();
+	DrawDebugLine(GetWorld(), start, start + playerForward * lineDistance, lineColor, false, 0.1f);
+
+	float lookness = FVector::DotProduct(PlayerToSensorDir, playerForward);
+
+	bool isLooking = lookness >= threshold;
+
+	if (isLooking == true) {
+		// Draw Debug Line from the player to the sensor
+		DrawDebugLine(GetWorld(), start, start + PlayerToSensorDir * lineDistance, FColor::Green, false, 0.1f);
+	}
+	else {
+		// Draw Debug Line from the player to the sensor
+		DrawDebugLine(GetWorld(), start, start + PlayerToSensorDir * lineDistance, FColor::Red, false, 0.1f);
+	}
+
+	// Debug Text
+	//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, "Hello World");
 }
 
 void ALaserReflectAOCharacter::BeginPlay()
@@ -253,6 +295,30 @@ void ALaserReflectAOCharacter::EndTouch(const ETouchIndex::Type FingerIndex, con
 //		}
 //	}
 //}
+
+FVector ALaserReflectAOCharacter::GetLocation() {
+	// Funciton to get the player's location
+	//return GetActorLocation();
+
+	return FirstPersonCameraComponent->GetComponentLocation();
+}
+
+FVector ALaserReflectAOCharacter::GetForward() {
+	// Funciton to get the player's forward vector
+	//return GetActorForwardVector();
+
+	return FirstPersonCameraComponent->GetForwardVector();
+}
+
+FVector ALaserReflectAOCharacter::GetSensorLocation() {
+	// Funciton to get the sensor's location
+	return sensor->GetActorLocation();
+}
+
+FVector ALaserReflectAOCharacter::GetSensorForward() {
+	// Funciton to get the sensor's forward vector
+	return sensor->GetActorForwardVector();
+}
 
 void ALaserReflectAOCharacter::MoveForward(float Value)
 {
