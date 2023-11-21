@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "LaserReflectAO",
+			"Path": "C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Laser Reflect AO\\UE4-Laser-Reflect-AO\\LaserReflectAO\\Source\\LaserReflectAO.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LaserReflectAOEditor",
+			"Path": "C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Laser Reflect AO\\UE4-Laser-Reflect-AO\\LaserReflectAO\\Source\\LaserReflectAOEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+﻿  Cleaning LaserReflectAOEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+  Creating makefile for LaserReflectAOEditor (no existing makefile)
+  Parsing headers for LaserReflectAOEditor
+    Running UnrealHeaderTool "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\LaserReflectAO.uproject" "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\LaserReflectAOEditor\Development\LaserReflectAOEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\austi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for LaserReflectAOEditor in 20.3496623 seconds
+  Building LaserReflectAOEditor...
+  Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 15 actions with 8 processes...
+    [1/15] Default.rc2
+    [2/15] SharedPCH.Engine.ShadowErrors.cpp
+    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
+    [3/15] LaserReflectAO.cpp
+    [4/15] LaserReflectAO.init.gen.cpp
+    [5/15] LaserReflectAOGameMode.cpp
+    [6/15] LaserReflectAOProjectile.cpp
+    [7/15] LaserReflectAOHUD.cpp
+    [8/15] LaserReflectAOGameMode.gen.cpp
+    [9/15] LaserReflectAOHUD.gen.cpp
+    [10/15] LaserReflectAOCharacter.gen.cpp
+    [11/15] LaserReflectAOProjectile.gen.cpp
+    [12/15] LaserReflectAOCharacter.cpp
+    [13/15] UE4Editor-LaserReflectAO-0001.lib
+       Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-0001.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-0001.exp
+    [14/15] UE4Editor-LaserReflectAO-0001.dll
+LINK : fatal error LNK1104: cannot open file 'C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Binaries\Win64\UE4Editor-LaserReflectAO-0001.dll'
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(50,5): error MSB3073: The command ""D:\Epic Games\UE_4.27\Engine\Build\BatchFiles\Rebuild.bat" LaserReflectAOEditor Win64 Development -Project="C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\LaserReflectAO.uproject" -WaitMutex -FromMsBuild" exited with code -1.

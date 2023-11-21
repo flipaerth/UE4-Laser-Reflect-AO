@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Laser Reflect AO\\UE4-Laser-Reflect-AO\\LaserReflectAO\\Source\\LaserReflectAO\\LaserReflectAO.Build.cs",
+		"C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Laser Reflect AO\\UE4-Laser-Reflect-AO\\LaserReflectAO\\Source\\LaserReflectAO.Target.cs",
+		"C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Laser Reflect AO\\UE4-Laser-Reflect-AO\\LaserReflectAO\\Source\\LaserReflectAOEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
