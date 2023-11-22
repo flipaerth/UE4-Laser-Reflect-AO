@@ -12,7 +12,6 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "DrawDebugHelpers.h"
-#include "Sensor.h"
 #include "Math/Vector.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -30,7 +29,7 @@ ALaserReflectAOCharacter::ALaserReflectAOCharacter()
 	BaseLookUpRate = 45.f;
 
 	// Initialize threshold to your desired value
-	threshold = 0.5f;
+	//threshold = 0.5f;
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
@@ -94,6 +93,48 @@ void ALaserReflectAOCharacter::Tick(float DeltaTime) {
 
 	Super::Tick(DeltaTime);
 
+	FHitResult OutHit;
+
+	// Getting the location of the gun
+	FVector start = FP_Gun->GetComponentLocation();
+
+	// Get the forward vector of the camera
+	FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
+
+	// Get the end point
+	FVector end = (start + (ForwardVector * lineDistance));
+
+	// Collision Params
+	FCollisionQueryParams CollisionParams;
+
+	// Draw Debug Line to visualize the line trace
+	DrawDebugLine(GetWorld(), start, end, lineColorFromGun, false, 0.1f);
+
+	// If something is hit, this puts it as the outhit hit result variable
+	bool isHit = GetWorld()->LineTraceSingleByChannel(OutHit, start, end, ECC_Visibility, CollisionParams);
+
+	// If the line trace does hit something, print to the screen the information / if isHit is true
+	if (isHit) {
+		// Is it true if the outhit had a blocking hit
+		if (OutHit.bBlockingHit) {
+			// Print out to the screen if that is true
+			if (GEngine) {
+				// Get the actor's name of whatever the line hits
+				GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, FString::Printf(TEXT("You are hitting: %s"), *OutHit.GetActor()->GetName()));
+
+				// Gets the impact point's information and draws a debug line from the impact point's normal direction
+				GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Emerald, FString::Printf(TEXT("Impact Point: %s"), *OutHit.ImpactPoint.ToString()));
+				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, OutHit.ImpactPoint + OutHit.ImpactNormal * lineDistance, lineColorFromImpact, false, 0.1f);
+
+				// Gets the impact normal's information and draws a debug line from the impact point to the reflection
+				GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Normal Point: %s"), *OutHit.ImpactNormal.ToString()));
+				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - 2 * FVector::DotProduct(OutHit.ImpactNormal, start) * OutHit.ImpactNormal, lineColorForReflect, false, 0.1f);
+			}
+		}
+	}
+
+	// Old Code for the Sensor Project
+	/*
 	// Get the player location
 	FVector start = GetLocation();
 	// Get the sensor's location
@@ -121,6 +162,7 @@ void ALaserReflectAOCharacter::Tick(float DeltaTime) {
 		// Draw Debug Line from the player to the sensor
 		DrawDebugLine(GetWorld(), start, start + PlayerToSensorDir * lineDistance, FColor::Red, false, 0.1f);
 	}
+	*/
 
 	// Debug Text
 	//GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, "Hello World");
@@ -296,6 +338,9 @@ void ALaserReflectAOCharacter::EndTouch(const ETouchIndex::Type FingerIndex, con
 //	}
 //}
 
+
+// Old Code for the Sensor Project
+/*
 FVector ALaserReflectAOCharacter::GetLocation() {
 	// Funciton to get the player's location
 	//return GetActorLocation();
@@ -319,6 +364,7 @@ FVector ALaserReflectAOCharacter::GetSensorForward() {
 	// Funciton to get the sensor's forward vector
 	return sensor->GetActorForwardVector();
 }
+*/
 
 void ALaserReflectAOCharacter::MoveForward(float Value)
 {
