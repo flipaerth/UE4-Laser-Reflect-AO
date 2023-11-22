@@ -128,7 +128,60 @@ void ALaserReflectAOCharacter::Tick(float DeltaTime) {
 
 				// Gets the impact normal's information and draws a debug line from the impact point to the reflection
 				GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Normal Point: %s"), *OutHit.ImpactNormal.ToString()));
-				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - 2 * FVector::DotProduct(OutHit.ImpactNormal, start) * OutHit.ImpactNormal, lineColorForReflect, false, 0.1f);
+
+				// Calculate the line direction
+				FVector lineDir = (end - start).GetSafeNormal();
+
+				// Calculate the surface normal
+				FVector normal = OutHit.ImpactNormal.GetSafeNormal();
+
+				// Used ChatGPT to help with this part - I struggled the absolute MOST here for days before I used it, but I realize that goes against the point of the assignment
+				FVector reflection = lineDir - 2 * FVector::DotProduct(lineDir, normal) * normal; // I had a similar implementation a few hours prior
+				reflection.Normalize();
+
+				// Calculate the point for the reflection line
+				FVector reflectionPoint = OutHit.ImpactPoint + reflection * reflectionOffset * lineDistance;
+
+				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, reflectionPoint, lineColorForReflect, false, 0.1f);
+				
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - 2.0f * FVector::DotProduct(OutHit.ImpactNormal, start) * OutHit.ImpactNormal, lineColorForReflect, false, 0.1f);
+
+				/* 
+				 * Need to project the ray (the start line) onto the normal.
+				 * The dot product gives a scalar value, does not give a vector.
+				 * n = is the normal of a surface, ray = raycast / start line
+				 * If we project the ray direction onto the normal, we get this length: dot(n, ray)
+				 * dot(n, ray) is going to be negative, because they are pointing in opposite directions, like a negative distance.
+				 * To convert dot(n, ray) to a vector, we can multiply the dot product by the normal.
+				 * This creates a vector projection, of taking the ray vector and projected it onto the normal, to get the dot product vector.
+				 * Now an offset needs to be made to flip the vector.
+				 * If we take the projected vector, and multiply it by 2 and offset it, we would offset it up to the reflected point.
+				 * The key is to successful project it onto the negative axis, and multiplying it by 2 gives us the displacement between the two vectors.
+				 * Then we want to take the negative ray direction, and subtract that vector to get to the positive vector.
+				 * The full distance would be 2 * dot(n, ray) * n
+				 * And then we would want to subtract that from the ray direction: ray - 2 * dot(n, ray) * n
+				 */
+
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - 2.0f * dotVector * normal, lineColorForReflect, false, 0.1f); This doesn't work
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - (dotVector * 2) * normal, lineColorForReflect, false, 0.1f); This doesn't work
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - ((dotVector * 2.0f) * normal), lineColorForReflect, false, 0.1f); This doesn't work
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, start - (dotVector * 2) * (-1 * normal), lineColorForReflect, false, 0.1f); This doesn't work
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end - 2.0f * dotVector * normal, lineColorForReflect, false, 0.1f); End is projecting on the negative axis
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end - (dotVector * 2) * normal, lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end - ((dotVector * 2.0f) * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end - (dotVector * 2) * (-1 * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end.GetSafeNormal() - (dotVector * 2) * (-1 * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end - (dotVector * 2).GetSafeNormal() * (-1 * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, end - (dotVector * 2) * (-1 * normal).GetSafeNormal(), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (end - OutHit.ImpactPoint) - (dotVector * 2) * (-1 * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (OutHit.ImpactPoint - end) - (dotVector * 2) * (-1 * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (OutHit.ImpactPoint - end) - 2.0f * dotVector * normal, lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (OutHit.ImpactPoint - end) - ((2.0f * dotVector) * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (OutHit.ImpactPoint - end) - ((2.0f * dotVector) * normal) * -1.0f, lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (end - OutHit.ImpactPoint) - ((2.0f * dotVector) * normal) * -1.0f, lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, ((end - OutHit.ImpactPoint) * -1.0f) - ((2.0f * dotVector) * normal), lineColorForReflect, false, 0.1f);
+				//DrawDebugLine(GetWorld(), OutHit.ImpactPoint, (end - OutHit.ImpactPoint).GetSafeNormal() - ((dotVector * normal) * 2), lineColorForReflect, false, 0.1f);
+				// These all give the exact same result or a minor variation (all wrong results); this list was a lot, lot longer, but I reduced its size to show at least some work and thought process
 			}
 		}
 	}
@@ -216,7 +269,7 @@ void ALaserReflectAOCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent ->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &ALaserReflectAOCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ALaserReflectAOCharacter::LookUpAtRate);

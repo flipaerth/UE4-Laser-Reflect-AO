@@ -78,6 +78,10 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_lineDistance;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_reflectionOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_reflectionOffset;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lineColorFromGun_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_lineColorFromGun;
@@ -226,6 +230,13 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance = { "lineDistance", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, lineDistance), METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_reflectionOffset_MetaData[] = {
+		{ "Category", "LaserReflectAOCharacter" },
+		{ "ModuleRelativePath", "LaserReflectAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_reflectionOffset = { "reflectionOffset", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALaserReflectAOCharacter, reflectionOffset), METADATA_PARAMS(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_reflectionOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_reflectionOffset_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColorFromGun_MetaData[] = {
 		{ "Category", "LaserReflectAOCharacter" },
 		{ "ModuleRelativePath", "LaserReflectAOCharacter.h" },
@@ -323,6 +334,7 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_reflectionOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColorFromGun,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColorFromImpact,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALaserReflectAOCharacter_Statics::NewProp_lineColorForReflect,
@@ -361,7 +373,7 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAOCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALaserReflectAOCharacter, 1669366926);
+	IMPLEMENT_CLASS(ALaserReflectAOCharacter, 5567911);
 	template<> LASERREFLECTAO_API UClass* StaticClass<ALaserReflectAOCharacter>()
 	{
 		return ALaserReflectAOCharacter::StaticClass();

@@ -78,6 +78,9 @@ public:
 	float lineDistance = 1000.0f;
 
 	UPROPERTY(EditAnywhere)
+	float reflectionOffset = 200.0f;
+
+	UPROPERTY(EditAnywhere)
 	FColor lineColorFromGun;
 
 	UPROPERTY(EditAnywhere)

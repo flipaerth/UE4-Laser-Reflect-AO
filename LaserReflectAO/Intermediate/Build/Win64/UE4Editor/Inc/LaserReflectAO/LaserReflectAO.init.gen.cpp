@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLaserReflectAO_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBEC4D313,
+				0x48054506,
 				0xD9BD25B9,
 				METADATA_PARAMS(nullptr, 0)
 			};
