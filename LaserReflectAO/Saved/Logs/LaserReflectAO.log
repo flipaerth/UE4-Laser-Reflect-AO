@@ -7847,3 +7847,542 @@ Would you like to open the Output Log to see more details?
 [2023.11.22-00.30.52:257][479]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.11.22-00.30.52:264][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
 [2023.11.22-00.30.52:340][480]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2023.11.22-00.35.41:578][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2023.11.22-00.35.41:612][423]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/FirstPersonExampleMap_Auto60B22B77B4134D8D316400BA15DEF4AD3.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2023.11.22-00.35.41:615][423]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.054
+[2023.11.22-00.35.41:635][423]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.054
+[2023.11.22-00.38.52:210][ 43]Candidate modules for hot reload:
+[2023.11.22-00.38.52:210][ 43]  LaserReflectAO
+[2023.11.22-00.38.52:210][ 43]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,4868 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-00.38.52:634][ 43]Warning: Starting HotReload took  0.4s.
+[2023.11.22-00.39.15:250][248]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 12:39:15 PM
+[2023.11.22-00.39.15:252][248]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-00.39.15:252][248]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-00.39.15:252][248]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-00.39.15:252][248]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-00.39.15:252][248]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-00.39.15:253][248]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-4868.lib
+[2023.11.22-00.39.15:253][248]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4868.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4868.exp
+[2023.11.22-00.39.15:253][248]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-4868.dll
+[2023.11.22-00.39.15:253][248]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4868.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-4868.suppressed.exp
+[2023.11.22-00.39.15:253][248]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-00.39.15:253][248]CompilerResultsLog: Total time in Parallel executor: 16.84 seconds
+[2023.11.22-00.39.15:253][248]CompilerResultsLog: Total execution time: 20.45 seconds
+[2023.11.22-00.39.15:253][248]LogMainFrame: MainFrame: Module compiling took 23.053 seconds
+[2023.11.22-00.39.15:382][248]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2023.11.22-00.39.15:388][248]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-00.39.15:496][248]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0192 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-00.39.15:496][248]Display: HotReload took 23.3s.
+[2023.11.22-00.39.19:598][281]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-00.39.19:607][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-00.39.19:607][281]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 12:39:19 PM)
+[2023.11.22-00.39.19:607][281]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.39.19:626][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018545s)
+[2023.11.22-00.39.19:628][281]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-00.39.19:629][281]LogPlayLevel: PIE: World Init took: (0.003062s)
+[2023.11.22-00.39.19:630][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021880s)
+[2023.11.22-00.39.19:760][281]LogUObjectHash: Compacting FUObjectHashTables data took   6.92ms
+[2023.11.22-00.39.19:762][281]LogAudio: Display: Creating Audio Device:                 Id: 88, Scope: Unique, Realtime: True
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-00.39.19:763][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-00.39.19:763][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-00.39.19:763][281]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-00.39.19:764][281]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-00.39.19:764][281]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-00.39.19:764][281]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-00.39.19:801][281]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-00.39.19:801][281]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-00.39.19:825][281]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-00.39.19:825][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-00.39.19:825][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-00.39.19:825][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-00.39.19:827][281]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-00.39.19:827][281]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-00.39.19:827][281]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-00.39.19:829][281]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-00.39.19:829][281]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-00.39.19:829][281]LogInit: FAudioDevice initialized.
+[2023.11.22-00.39.19:829][281]LogAudio: Display: Audio Device (ID: 88) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-00.39.19:840][281]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-00.39.19:844][281]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-18.39.19
+[2023.11.22-00.39.19:844][281]LogWorld: Bringing up level for play took: 0.003239
+[2023.11.22-00.39.19:845][281]LogOnline: OSS: Creating online subsystem instance for: :Context_94
+[2023.11.22-00.39.19:848][281]PIE: Server logged in
+[2023.11.22-00.39.19:848][281]PIE: Play in editor total start time 0.244 seconds.
+[2023.11.22-00.40.02:692][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.40.02:692][837]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.40.02:693][837]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-00.40.02:693][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.40.02:708][837]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-00.40.02:864][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.40.02:878][837]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.22-00.40.02:879][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.40.02:881][837]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.40.02:884][837]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.40.02:889][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.11.22-00.40.02:965][838]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2023.11.22-00.40.13:515][971]Candidate modules for hot reload:
+[2023.11.22-00.40.13:515][971]  LaserReflectAO
+[2023.11.22-00.40.13:515][971]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,9704 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-00.40.13:525][971]Warning: Starting HotReload took  0.0s.
+[2023.11.22-00.40.25:246][184]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 12:40:25 PM
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-00.40.25:247][184]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-00.40.25:247][184]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-9704.lib
+[2023.11.22-00.40.25:247][184]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9704.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9704.exp
+[2023.11.22-00.40.25:247][184]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-9704.dll
+[2023.11.22-00.40.25:247][184]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9704.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-9704.suppressed.exp
+[2023.11.22-00.40.25:247][184]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Total time in Parallel executor: 5.98 seconds
+[2023.11.22-00.40.25:247][184]CompilerResultsLog: Total execution time: 11.59 seconds
+[2023.11.22-00.40.25:248][184]LogMainFrame: MainFrame: Module compiling took 11.750 seconds
+[2023.11.22-00.40.25:349][184]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2023.11.22-00.40.25:356][184]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-00.40.25:450][184]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0182 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-00.40.25:450][184]Display: HotReload took 12.0s.
+[2023.11.22-00.40.27:479][261]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-00.40.27:488][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-00.40.27:488][261]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 12:40:27 PM)
+[2023.11.22-00.40.27:488][261]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.40.27:505][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017337s)
+[2023.11.22-00.40.27:508][261]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-00.40.27:508][261]LogPlayLevel: PIE: World Init took: (0.002202s)
+[2023.11.22-00.40.27:508][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019878s)
+[2023.11.22-00.40.27:615][261]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2023.11.22-00.40.27:617][261]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-00.40.27:617][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-00.40.27:617][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-00.40.27:617][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-00.40.27:617][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-00.40.27:617][261]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-00.40.27:622][261]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-00.40.27:622][261]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-00.40.27:642][261]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-00.40.27:643][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-00.40.27:643][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-00.40.27:643][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-00.40.27:644][261]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-00.40.27:644][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-00.40.27:644][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-00.40.27:646][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-00.40.27:646][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-00.40.27:646][261]LogInit: FAudioDevice initialized.
+[2023.11.22-00.40.27:646][261]LogAudio: Display: Audio Device (ID: 89) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-00.40.27:658][261]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-00.40.27:661][261]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-18.40.27
+[2023.11.22-00.40.27:662][261]LogWorld: Bringing up level for play took: 0.002974
+[2023.11.22-00.40.27:662][261]LogOnline: OSS: Creating online subsystem instance for: :Context_95
+[2023.11.22-00.40.27:665][261]PIE: Server logged in
+[2023.11.22-00.40.27:666][261]PIE: Play in editor total start time 0.18 seconds.
+[2023.11.22-00.41.50:651][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.41.50:651][167]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.41.50:652][167]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-00.41.50:653][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.41.50:667][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-00.41.50:789][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.41.50:804][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.22-00.41.50:805][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.41.50:806][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.41.50:810][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.41.50:814][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.11.22-00.41.50:871][168]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2023.11.22-00.47.45:323][807]Candidate modules for hot reload:
+[2023.11.22-00.47.45:323][807]  LaserReflectAO
+[2023.11.22-00.47.45:323][807]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,3243 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-00.47.45:330][807]Warning: Starting HotReload took  0.0s.
+[2023.11.22-00.47.56:641][132]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 12:47:56 PM
+[2023.11.22-00.47.56:641][132]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-00.47.56:642][132]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.22-00.47.56:642][132]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-00.47.56:642][132]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-00.47.56:642][132]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-00.47.56:642][132]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-00.47.56:642][132]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-3243.lib
+[2023.11.22-00.47.56:642][132]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3243.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3243.exp
+[2023.11.22-00.47.56:642][132]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-3243.dll
+[2023.11.22-00.47.56:642][132]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3243.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-3243.suppressed.exp
+[2023.11.22-00.47.56:642][132]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-00.47.56:642][132]CompilerResultsLog: Total time in Parallel executor: 4.96 seconds
+[2023.11.22-00.47.56:642][132]CompilerResultsLog: Total execution time: 11.17 seconds
+[2023.11.22-00.47.56:642][132]LogMainFrame: MainFrame: Module compiling took 11.339 seconds
+[2023.11.22-00.47.56:741][132]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2023.11.22-00.47.56:753][132]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-00.47.56:841][132]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0153 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-00.47.56:841][132]Display: HotReload took 11.6s.
+[2023.11.22-00.47.59:184][200]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-00.47.59:195][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-00.47.59:195][200]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 12:47:59 PM)
+[2023.11.22-00.47.59:195][200]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.47.59:208][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014428s)
+[2023.11.22-00.47.59:211][200]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-00.47.59:212][200]LogPlayLevel: PIE: World Init took: (0.002387s)
+[2023.11.22-00.47.59:212][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017123s)
+[2023.11.22-00.47.59:319][200]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2023.11.22-00.47.59:322][200]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-00.47.59:323][200]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-00.47.59:323][200]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-00.47.59:324][200]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-00.47.59:324][200]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-00.47.59:324][200]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-00.47.59:324][200]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-00.47.59:328][200]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-00.47.59:328][200]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-00.47.59:349][200]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-00.47.59:349][200]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-00.47.59:349][200]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-00.47.59:349][200]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-00.47.59:350][200]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-00.47.59:350][200]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-00.47.59:350][200]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-00.47.59:353][200]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-00.47.59:353][200]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-00.47.59:353][200]LogInit: FAudioDevice initialized.
+[2023.11.22-00.47.59:353][200]LogAudio: Display: Audio Device (ID: 90) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-00.47.59:366][200]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-00.47.59:370][200]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-18.47.59
+[2023.11.22-00.47.59:370][200]LogWorld: Bringing up level for play took: 0.002944
+[2023.11.22-00.47.59:370][200]LogOnline: OSS: Creating online subsystem instance for: :Context_96
+[2023.11.22-00.47.59:374][200]PIE: Server logged in
+[2023.11.22-00.47.59:375][200]PIE: Play in editor total start time 0.182 seconds.
+[2023.11.22-00.48.18:110][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.48.18:110][289]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.48.18:110][289]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-00.48.18:111][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.48.18:125][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-00.48.18:244][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.48.18:259][289]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.22-00.48.18:262][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.48.18:263][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.48.18:266][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.48.18:275][289]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2023.11.22-00.48.18:329][290]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2023.11.22-00.48.19:454][342]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-00.48.19:460][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-00.48.19:460][342]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 12:48:19 PM)
+[2023.11.22-00.48.19:461][342]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.48.19:473][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012432s)
+[2023.11.22-00.48.19:474][342]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-00.48.19:475][342]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2023.11.22-00.48.19:475][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014075s)
+[2023.11.22-00.48.19:494][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.11.22-00.48.19:496][342]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-00.48.19:496][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-00.48.19:496][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-00.48.19:496][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-00.48.19:496][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-00.48.19:496][342]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-00.48.19:500][342]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-00.48.19:500][342]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-00.48.19:516][342]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-00.48.19:516][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-00.48.19:516][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-00.48.19:516][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-00.48.19:525][342]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-00.48.19:525][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-00.48.19:525][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-00.48.19:526][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-00.48.19:526][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-00.48.19:526][342]LogInit: FAudioDevice initialized.
+[2023.11.22-00.48.19:526][342]LogAudio: Display: Audio Device (ID: 91) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-00.48.19:536][342]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-00.48.19:538][342]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-18.48.19
+[2023.11.22-00.48.19:538][342]LogWorld: Bringing up level for play took: 0.002613
+[2023.11.22-00.48.19:539][342]LogOnline: OSS: Creating online subsystem instance for: :Context_97
+[2023.11.22-00.48.19:543][342]PIE: Server logged in
+[2023.11.22-00.48.19:546][342]PIE: Play in editor total start time 0.087 seconds.
+[2023.11.22-00.48.27:800][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.48.27:800][833]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.48.27:800][833]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-00.48.27:801][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.48.27:812][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-00.48.27:924][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.48.27:938][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.22-00.48.27:939][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.48.27:941][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.48.27:944][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.48.27:950][833]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.11.22-00.48.28:018][834]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2023.11.22-00.48.57:276][ 22]Candidate modules for hot reload:
+[2023.11.22-00.48.57:276][ 22]  LaserReflectAO
+[2023.11.22-00.48.57:276][ 22]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,1865 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-00.48.57:284][ 22]Warning: Starting HotReload took  0.0s.
+[2023.11.22-00.49.10:108][718]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 12:49:10 PM
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-00.49.10:109][718]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-00.49.10:109][718]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-1865.lib
+[2023.11.22-00.49.10:109][718]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1865.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1865.exp
+[2023.11.22-00.49.10:109][718]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-1865.dll
+[2023.11.22-00.49.10:109][718]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1865.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1865.suppressed.exp
+[2023.11.22-00.49.10:109][718]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Total time in Parallel executor: 7.56 seconds
+[2023.11.22-00.49.10:109][718]CompilerResultsLog: Total execution time: 12.68 seconds
+[2023.11.22-00.49.10:109][718]LogMainFrame: MainFrame: Module compiling took 12.848 seconds
+[2023.11.22-00.49.10:194][718]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2023.11.22-00.49.10:202][718]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-00.49.10:288][718]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0181 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-00.49.10:288][718]Display: HotReload took 13.0s.
+[2023.11.22-00.49.12:169][783]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-00.49.12:178][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-00.49.12:178][783]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 12:49:12 PM)
+[2023.11.22-00.49.12:179][783]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.49.12:193][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014600s)
+[2023.11.22-00.49.12:196][783]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-00.49.12:198][783]LogPlayLevel: PIE: World Init took: (0.004516s)
+[2023.11.22-00.49.12:198][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019416s)
+[2023.11.22-00.49.12:315][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2023.11.22-00.49.12:318][783]LogAudio: Display: Creating Audio Device:                 Id: 92, Scope: Unique, Realtime: True
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-00.49.12:318][783]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-00.49.12:318][783]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-00.49.12:319][783]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-00.49.12:319][783]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-00.49.12:319][783]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-00.49.12:319][783]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-00.49.12:323][783]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-00.49.12:323][783]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-00.49.12:342][783]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-00.49.12:342][783]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-00.49.12:342][783]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-00.49.12:342][783]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-00.49.12:343][783]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-00.49.12:343][783]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-00.49.12:343][783]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-00.49.12:344][783]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-00.49.12:344][783]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-00.49.12:344][783]LogInit: FAudioDevice initialized.
+[2023.11.22-00.49.12:344][783]LogAudio: Display: Audio Device (ID: 92) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-00.49.12:357][783]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-00.49.12:360][783]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-18.49.12
+[2023.11.22-00.49.12:360][783]LogWorld: Bringing up level for play took: 0.002874
+[2023.11.22-00.49.12:361][783]LogOnline: OSS: Creating online subsystem instance for: :Context_98
+[2023.11.22-00.49.12:364][783]PIE: Server logged in
+[2023.11.22-00.49.12:366][783]PIE: Play in editor total start time 0.189 seconds.
+[2023.11.22-00.49.29:730][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.49.29:730][815]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.49.29:730][815]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-00.49.29:731][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.49.29:744][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-00.49.29:857][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.49.29:872][815]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.22-00.49.29:881][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.49.29:883][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.49.29:887][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.49.29:904][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.11.22-00.49.29:981][816]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2023.11.22-00.49.47:304][949]Candidate modules for hot reload:
+[2023.11.22-00.49.47:304][949]  LaserReflectAO
+[2023.11.22-00.49.47:304][949]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,7486 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-00.49.47:310][949]Warning: Starting HotReload took  0.0s.
+[2023.11.22-00.49.57:816][332]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 12:49:57 PM
+[2023.11.22-00.49.57:818][332]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-00.49.57:818][332]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.22-00.49.57:818][332]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-00.49.57:818][332]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-00.49.57:818][332]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-00.49.57:819][332]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-00.49.57:819][332]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-7486.lib
+[2023.11.22-00.49.57:819][332]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-7486.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-7486.exp
+[2023.11.22-00.49.57:819][332]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-7486.dll
+[2023.11.22-00.49.57:819][332]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-7486.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-7486.suppressed.exp
+[2023.11.22-00.49.57:819][332]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-00.49.57:819][332]CompilerResultsLog: Total time in Parallel executor: 6.26 seconds
+[2023.11.22-00.49.57:819][332]CompilerResultsLog: Total execution time: 10.37 seconds
+[2023.11.22-00.49.57:819][332]LogMainFrame: MainFrame: Module compiling took 10.542 seconds
+[2023.11.22-00.49.57:905][332]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2023.11.22-00.49.57:917][332]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-00.49.58:014][332]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0171 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-00.49.58:014][332]Display: HotReload took 10.7s.
+[2023.11.22-00.50.00:005][413]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-00.50.00:012][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-00.50.00:012][413]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 12:50:00 PM)
+[2023.11.22-00.50.00:038][413]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.50.00:053][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014239s)
+[2023.11.22-00.50.00:055][413]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-00.50.00:055][413]LogPlayLevel: PIE: World Init took: (0.002242s)
+[2023.11.22-00.50.00:055][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016838s)
+[2023.11.22-00.50.00:159][413]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2023.11.22-00.50.00:161][413]LogAudio: Display: Creating Audio Device:                 Id: 93, Scope: Unique, Realtime: True
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-00.50.00:161][413]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-00.50.00:161][413]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-00.50.00:162][413]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-00.50.00:162][413]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-00.50.00:162][413]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-00.50.00:162][413]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-00.50.00:166][413]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-00.50.00:166][413]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-00.50.00:184][413]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-00.50.00:184][413]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-00.50.00:184][413]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-00.50.00:185][413]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-00.50.00:186][413]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-00.50.00:186][413]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-00.50.00:186][413]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-00.50.00:188][413]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-00.50.00:188][413]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-00.50.00:188][413]LogInit: FAudioDevice initialized.
+[2023.11.22-00.50.00:188][413]LogAudio: Display: Audio Device (ID: 93) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-00.50.00:198][413]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-00.50.00:200][413]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-18.50.00
+[2023.11.22-00.50.00:201][413]LogWorld: Bringing up level for play took: 0.002284
+[2023.11.22-00.50.00:201][413]LogOnline: OSS: Creating online subsystem instance for: :Context_99
+[2023.11.22-00.50.00:204][413]PIE: Server logged in
+[2023.11.22-00.50.00:205][413]PIE: Play in editor total start time 0.194 seconds.
+[2023.11.22-00.50.42:560][823]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 8
+[2023.11.22-00.50.43:245][855]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigWall2)
+[2023.11.22-00.50.45:764][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.11.22-00.50.47:326][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.11.22-00.51.55:568][995]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 8
+[2023.11.22-00.53.16:389][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.53.16:389][831]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-00.53.16:389][831]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-00.53.16:390][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.53.16:405][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-00.53.16:410][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-00.53.16:422][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-00.53.16:423][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.53.16:424][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-00.53.16:432][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.11.22-00.53.16:463][832]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2023.11.22-01.07.42:881][540]Candidate modules for hot reload:
+[2023.11.22-01.07.42:881][540]  LaserReflectAO
+[2023.11.22-01.07.42:881][540]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,5644 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-01.07.42:889][540]Warning: Starting HotReload took  0.0s.
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 1:07:53 PM
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-01.07.53:563][679]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-01.07.53:563][679]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-5644.lib
+[2023.11.22-01.07.53:563][679]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5644.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5644.exp
+[2023.11.22-01.07.53:563][679]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-5644.dll
+[2023.11.22-01.07.53:563][679]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5644.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-5644.suppressed.exp
+[2023.11.22-01.07.53:563][679]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Total time in Parallel executor: 5.77 seconds
+[2023.11.22-01.07.53:563][679]CompilerResultsLog: Total execution time: 10.42 seconds
+[2023.11.22-01.07.53:563][679]LogMainFrame: MainFrame: Module compiling took 10.695 seconds
+[2023.11.22-01.07.53:664][679]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2023.11.22-01.07.53:672][679]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-01.07.53:770][679]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0191 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-01.07.53:771][679]Display: HotReload took 10.9s.
+[2023.11.22-01.07.58:214][721]LogTemp: Repeating last play command: Selected Viewport
+[2023.11.22-01.07.58:220][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.22-01.07.58:220][721]PIE: New page: PIE session: FirstPersonExampleMap (Nov 21, 2023, 1:07:58 PM)
+[2023.11.22-01.07.58:246][721]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-01.07.58:259][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012326s)
+[2023.11.22-01.07.58:260][721]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.11.22-01.07.58:261][721]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2023.11.22-01.07.58:261][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014492s)
+[2023.11.22-01.07.58:372][721]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2023.11.22-01.07.58:377][721]LogAudio: Display: Creating Audio Device:                 Id: 94, Scope: Unique, Realtime: True
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.22-01.07.58:377][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.22-01.07.58:377][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.22-01.07.58:378][721]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.22-01.07.58:378][721]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.22-01.07.58:378][721]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.22-01.07.58:378][721]LogAudioMixer: Display: Initializing audio mixer.
+[2023.11.22-01.07.58:383][721]LogAudioMixer: Display: 0: FrontLeft
+[2023.11.22-01.07.58:383][721]LogAudioMixer: Display: 1: FrontRight
+[2023.11.22-01.07.58:404][721]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.11.22-01.07.58:405][721]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.22-01.07.58:405][721]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.22-01.07.58:405][721]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.22-01.07.58:408][721]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.11.22-01.07.58:408][721]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.11.22-01.07.58:408][721]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.11.22-01.07.58:409][721]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.11.22-01.07.58:409][721]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.11.22-01.07.58:409][721]LogInit: FAudioDevice initialized.
+[2023.11.22-01.07.58:411][721]LogAudio: Display: Audio Device (ID: 94) registered with world 'FirstPersonExampleMap'.
+[2023.11.22-01.07.58:421][721]LogLoad: Game class is 'LaserReflectAOGameMode'
+[2023.11.22-01.07.58:425][721]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.11.21-19.07.58
+[2023.11.22-01.07.58:425][721]LogWorld: Bringing up level for play took: 0.003829
+[2023.11.22-01.07.58:425][721]LogOnline: OSS: Creating online subsystem instance for: :Context_100
+[2023.11.22-01.07.58:429][721]PIE: Server logged in
+[2023.11.22-01.07.58:431][721]PIE: Play in editor total start time 0.212 seconds.
+[2023.11.22-01.08.29:159][529]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2023.11.22-01.09.09:428][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-01.09.09:429][860]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.11.22-01.09.09:429][860]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.22-01.09.09:429][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-01.09.09:439][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.22-01.09.09:444][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.22-01.09.09:457][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.22-01.09.09:458][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-01.09.09:460][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.11.22-01.09.09:467][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.11.22-01.09.09:499][861]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2023.11.22-01.11.11:563][382]Candidate modules for hot reload:
+[2023.11.22-01.11.11:563][382]  LaserReflectAO
+[2023.11.22-01.11.11:564][382]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LaserReflectAO,1139 LaserReflectAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Laser Reflect AO/UE4-Laser-Reflect-AO/LaserReflectAO/LaserReflectAO.uproject"  -IgnoreJunk]
+[2023.11.22-01.11.11:569][382]Warning: Starting HotReload took  0.0s.
+[2023.11.22-01.11.21:240][532]CompilerResultsLog: New page: Compilation - Nov 21, 2023, 1:11:21 PM
+[2023.11.22-01.11.21:241][532]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO).
+[2023.11.22-01.11.21:241][532]CompilerResultsLog: Invalidating makefile for LaserReflectAOEditor (LaserReflectAOCharacter.cpp.obj.response modified)
+[2023.11.22-01.11.21:243][532]CompilerResultsLog: Building LaserReflectAOEditor...
+[2023.11.22-01.11.21:244][532]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.11.22-01.11.21:244][532]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.11.22-01.11.21:244][532]CompilerResultsLog:   [1/4] LaserReflectAOCharacter.cpp
+[2023.11.22-01.11.21:244][532]CompilerResultsLog:   [2/4] UE4Editor-LaserReflectAO-1139.lib
+[2023.11.22-01.11.21:244][532]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1139.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1139.exp
+[2023.11.22-01.11.21:244][532]CompilerResultsLog:   [3/4] UE4Editor-LaserReflectAO-1139.dll
+[2023.11.22-01.11.21:244][532]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1139.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\UE4Editor-LaserReflectAO-1139.suppressed.exp
+[2023.11.22-01.11.21:244][532]CompilerResultsLog:   [4/4] LaserReflectAOEditor.target
+[2023.11.22-01.11.21:244][532]CompilerResultsLog: Total time in Parallel executor: 4.88 seconds
+[2023.11.22-01.11.21:244][532]CompilerResultsLog: Total execution time: 9.53 seconds
+[2023.11.22-01.11.21:245][532]LogMainFrame: MainFrame: Module compiling took 9.690 seconds
+[2023.11.22-01.11.21:374][532]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'LaserReflectAO' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2023.11.22-01.11.21:388][532]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.11.22-01.11.21:499][532]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0197 seconds. Added 3827 classes and 930 folders.
+[2023.11.22-01.11.21:499][532]Display: HotReload took 10.0s.

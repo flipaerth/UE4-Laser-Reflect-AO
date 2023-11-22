@@ -266,11 +266,8 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\LaserReflectAOEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\LaserReflectAOEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\LaserReflectAOEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Source\LaserReflectAO\LaserReflectAOCharacter.cpp"
-/FI"C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\Definitions.LaserReflectAO.h"
+/FI"C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\Definitions.h"
 /Fo"C:\Users\austi\Desktop\UnrealEngine Projects\Laser Reflect AO\UE4-Laser-Reflect-AO\LaserReflectAO\Intermediate\Build\Win64\UE4Editor\Development\LaserReflectAO\LaserReflectAOCharacter.cpp.obj"
 /TP
 /GR-
